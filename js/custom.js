@@ -22,6 +22,41 @@ if (mq.matches) {
     );
 }
 
+
+/* fixed nav on scroll */
+
+const body = document.body;
+const triggerMenu = document.querySelector(".header .first-button");
+const nav = document.querySelector(".header nav");
+const menu = document.querySelector(".header .menu");
+const scrollUp = "scroll-up";
+const scrollDown = "scroll-down";
+let lastScroll = 0;
+
+triggerMenu.addEventListener("click", () => {
+    body.classList.toggle("menu-open");
+});
+
+window.addEventListener("scroll", () => {
+    const currentScroll = window.pageYOffset;
+    if (currentScroll == 0) {
+        body.classList.remove(scrollUp);
+        return;
+    }
+
+    if (currentScroll > lastScroll && !body.classList.contains(scrollDown)) {
+        // down
+        body.classList.remove(scrollUp);
+        body.classList.add(scrollDown);
+    } else if (currentScroll < lastScroll && body.classList.contains(scrollDown)) {
+        // up
+        body.classList.remove(scrollDown);
+        body.classList.add(scrollUp);
+    }
+    lastScroll = currentScroll;
+});
+
+
 // Aos animation
 
 AOS.init({
@@ -35,62 +70,11 @@ AOS.init({
 
 
 
-// top bar fixed on scroll up
-
-// Hide Header on on scroll down
-var didScroll;
-var lastScrollTop = 0;
-// height of nav bar
-var delta = 60;
-var navbarHeight = $('.header').outerHeight();
-
-$(window).scroll(function (event) {
-    didScroll = true;
-});
-
-setInterval(function () {
-    if (didScroll) {
-        hasScrolled();
-        didScroll = false;
-    }
-}, 250);
-
-function hasScrolled() {
-    var st = $(this).scrollTop();
-
-    // Make sure they scroll more than delta
-    if (Math.abs(lastScrollTop - st) <= delta)
-        return;
-
-
-
-    // If they scrolled down and are past the navbar, add class .nav-up.
-    // This is necessary so you never see what is "behind" the navbar.
-    if (st > lastScrollTop && st > navbarHeight) {
-        // Scroll Down
-        $('.header').removeClass('nav-down').addClass('nav-up');
-    } else {
-        // Scroll Up
-        if (st + $(window).height() < $(document).height()) {
-            $('.header').removeClass('nav-up').addClass('nav-down');
-        }
-        if( navbarHeight > st){
-            $('.header').removeClass('nav-down');
-        }
-
-    }
-
-
-    lastScrollTop = st;
-}
-
-
 //  Hamburger animation
 
 $('.first-button').on('click', function () {
 
     $('.animated-icon1').toggleClass('open');
-    $('body').toggleClass('body-hidden-overflow');
 });
 
 
@@ -145,3 +129,4 @@ var video = document.getElementsByTagName('video');
 new simpleParallax(video, {
     overflow: true
 });
+
