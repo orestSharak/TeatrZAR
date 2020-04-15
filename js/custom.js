@@ -25,36 +25,49 @@ if (mq.matches) {
 
 /* fixed nav on scroll */
 
-const body = document.body;
-const triggerMenu = document.querySelector(".header .first-button");
-const nav = document.querySelector(".header nav");
-const menu = document.querySelector(".header .menu");
-const scrollUp = "scroll-up";
-const scrollDown = "scroll-down";
-let lastScroll = 0;
+/* for large screen */
 
-triggerMenu.addEventListener("click", () => {
-    body.classList.toggle("menu-open");
-});
+var mq = window.matchMedia( "(min-width: 992px)" );
+if (mq.matches) {
 
-window.addEventListener("scroll", () => {
-    const currentScroll = window.pageYOffset;
-    if (currentScroll == 0) {
-        body.classList.remove(scrollUp);
-        return;
-    }
+    const body = document.body;
+    const nav = document.querySelector(".header nav");
+    const menu = document.querySelector(".header .menu");
+    const scrollUp = "scroll-up";
+    const scrollDown = "scroll-down";
+    let lastScroll = 0;
 
-    if (currentScroll > lastScroll && !body.classList.contains(scrollDown)) {
-        // down
-        body.classList.remove(scrollUp);
-        body.classList.add(scrollDown);
-    } else if (currentScroll < lastScroll && body.classList.contains(scrollDown)) {
-        // up
-        body.classList.remove(scrollDown);
-        body.classList.add(scrollUp);
-    }
-    lastScroll = currentScroll;
-});
+    window.addEventListener("scroll", () => {
+        const currentScroll = window.pageYOffset;
+        if (currentScroll == 0) {
+            body.classList.remove(scrollUp);
+            return;
+        }
+
+        if (currentScroll > lastScroll && !body.classList.contains(scrollDown)) {
+            // down
+            body.classList.remove(scrollUp);
+            body.classList.add(scrollDown);
+        } else if (currentScroll < lastScroll && body.classList.contains(scrollDown)) {
+            // up
+            body.classList.remove(scrollDown);
+            body.classList.add(scrollUp);
+        }
+        lastScroll = currentScroll;
+    });
+}
+/* for device */
+
+var mq = window.matchMedia( "(max-width: 992px)" );
+if (mq.matches) {
+
+    const body = document.body;
+    const triggerMenu = document.querySelector(".header .first-button");
+    triggerMenu.addEventListener("click", () => {
+        body.classList.toggle("menu-open");
+    });
+
+}
 
 
 // Aos animation
