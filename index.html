@@ -1,70 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Teatr ZAR</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+
+    <!-- meta tags -->
+
+    <meta name="title" content="Teatr ZAR">
+    <meta name="description"
+          content="Teatr ZAR develops productions through a long process of creating its own theatrical language, which draws on music from numerous traditions found in the East and West">
+    <meta name="author" content="Teatr ZAR/O.S.">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://teatrzar.pl/">
+    <meta property="og:title" content="Teatr ZAR">
+    <meta property="og:description"
+          content="Teatr ZAR develops productions through a long process of creating its own theatrical language, which draws on music from numerous traditions found in the East and West">
+    <meta property="og:image"
+          content="https://teatrzar.pl/img/logo-zar.png">
+    <meta property="og:site_name" content="Teatr ZAR">
+    <meta property=”fb:app_id” content=””/>
+
+    <!-- end meta tags -->
+
+    <title>Teatr ZAR</title>
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- end favicon -->
+    <link rel="stylesheet" href="css/fonts/font.css">
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/swiper/css/swiper.min.css">
     <link rel="stylesheet" href="css/aos/aos.css">
+    <link rel="stylesheet" href="css/magnific-popup/magnific-popup.css">
     <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <!--[endif]-->
+
+    <!-- google and facebook analytics -->
+    <script src="js/analytics/google-analytics.js"></script>
+    <script src="js/analytics/facebook.js"></script>
+
 </head>
 <body class="sticky">
-
 
 
 <div class="header">
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
-            <a class="navbar-brand font-weight-bold" href="index.html">Teatr ZAR</a>
+            <a class="navbar-brand font-weight-bold" data-aos="fade-right"
+               data-aos-delay="200" href="index.html">Teatr ZAR</a>
             <button class="navbar-toggler first-button" type="button" data-toggle="collapse"
                     data-target="#navbarNavDropdown"
                     aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <div class="animated-icon1"><span></span><span></span><span></span></div>
+                <span class="animated-icon1"><span></span><span></span><span></span></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                <ul class="navbar-nav" data-aos="fade-down"
+                    data-aos-delay="400">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about-view.html">News</a>
+                        <a class="nav-link" href="news.html">News</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Performances</a>
+                        <a class="nav-link" href="performances.html">Performances</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="post-view.html">Workshops</a>
+                        <a class="nav-link" href="workshop.html">Workshop</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
                         <div class="dropdown-menu "
                              aria-labelledby="navbarDropdown">
-                            <a class="nav-link dropdown" href="#">Anamnesis</a>
-                            <a class="nav-link dropdown" href="#">Armine, sister</a>
-                            <a class="nav-link dropdown" href="#">Studio</a>
+                            <a class="nav-link dropdown" href="stream.html">ZARstream</a>
+                            <a class="nav-link dropdown" href="studio.html">Studio</a>
+                            <a class="nav-link dropdown" href="project-item.html">Body<br>Constitution</a>
+                            <a class="nav-link dropdown" href="book.html">Book</a>
+                            <a class="nav-link dropdown" href="expedition.html">Expedition</a>
                         </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">ZARchive</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ZARchive</a>
+                        <div class="dropdown-menu "
+                             aria-labelledby="navbarDropdown3">
+                            <a class="nav-link dropdown" href="archive.html">Archive</a>
+                            <a class="nav-link dropdown" href="gallery.html">Gallery</a>
+                            <a class="nav-link dropdown" href="video.html">Video</a>
+                            <a class="nav-link dropdown" href="audio.html">Audio</a>
+                            <a class="nav-link dropdown" href="article.html">Article</a>
+                        </div>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
-                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About </a>
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
                         <div class="dropdown-menu "
                              aria-labelledby="navbarDropdown2">
-                            <a class="nav-link dropdown" href="#">History</a>
-                            <a class="nav-link dropdown" href="#">Team</a>
-                            <a class="nav-link dropdown" href="#">Contact</a>
+                            <a class="nav-link dropdown" href="about.html">About Us</a>
+                            <a class="nav-link dropdown" href="team.html">Team</a>
+                            <a class="nav-link dropdown" href="contact.html">Contact</a>
+                            <a class="nav-link dropdown" href="partners.html">Partners</a>
                         </div>
                     </li>
+                    <li class="nav-item ">
+                        <ul class="list-unstyled list-inline float-left pt-2 header-social-btn">
+                            <li class="list-inline-item" data-aos="fade-down"
+                                data-aos-delay="600">
+                                <a target="_blank" href="https://www.facebook.com/Teatr-ZAR-229627130749/"
+                                   class="text-gray-350">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+
+                            <li class="list-inline-item" data-aos="fade-down"
+                                data-aos-delay="800">
+                                <a target="_blank" href="https://www.instagram.com/teatrzar/" class="text-gray-350">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+
+                            <li class="list-inline-item" data-aos="fade-down"
+                                data-aos-delay="1000">
+                                <a target="_blank" href="https://www.youtube.com/channel/UC7xQfa_Z8YYKULqhfNnG_ag"
+                                   class="text-gray-350">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
+
             </div>
+
         </div>
     </nav>
 </div>
-
 
 
 <div class="sticky-wrap overflow-hidden">
@@ -75,7 +168,7 @@
               style="fill:var(--layer1, #e0d4ab)" fill="#e0d4ab;"></path>
     </svg>
 
-    <div style="height: 80vh; min-height: 500px;" data-aos="fade-up" data-aos-delay="200"
+    <div style="height: 80vh; min-height: 500px;" data-aos="fade-up" data-aos-delay="400"
          class="swiper-container home-slider-design">
         <!-- Additional required wrapper-->
         <div class="swiper-wrapper bg-cover-right">
@@ -85,22 +178,17 @@
                         <div data-swiper-parallax="-500" class="col-sm-6 pt-5 pt-md-0">
                             <p class="subtitle letter-spacing-3 mb-3 text-dark font-weight-light">22-26
                                 octomber</p>
-                            <h2 style="line-height: 1" class="display-3 undefined">Anhelli. The Howl in
+                            <h2 style="line-height: 1" class="display-2">Anhelli. The Howl in
                                 Toga</h2>
                             <p class="text-muted mb-5 pt-3">The bedding was hardly able to cover it and seemed ready
                                 to slide off
-                                any moment. His many legs, pit</p><a href="#" class="btn btn-outline-primary">Discover
+                                any moment. His many legs, pit</p><a href="about-view.html"
+                                                                     class="btn btn-outline-primary">Discover
                             more</a>
                         </div>
                         <div class="col-sm-6 text-left text-sm-center"><img src="img/ale.png" alt=""
                                                                             data-swiper-parallax="-200"
                                                                             class="img-fluid home-slider-image">
-                            <svg style="color: #B9DDFF"
-                                 class="svg-blob d-none d-md-inline-block svg-blob-fill-current svg-blob-swiper"
-                                 viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" id="blob-shape-3">
-                                <path d="M456.5 103.8c39.6 42.8 60.2 98.6 63.7 152.4 3.6 53.7-10 105.5-39.1 141.3-29.1 35.8-73.6 55.6-117.4 67.1-43.9 11.4-87 14.6-120.7-.8s-58.1-49.4-87.1-86.8c-29-37.5-62.6-78.4-57.4-113.4 5.1-35 49-64 89-106.8 40.1-42.8 76.3-99.3 123.6-112.6C358.5 31 417 60.9 456.5 103.8z"
-                                      style="fill:var(--layer1, #8ed1fc)" fill="#8ed1fc"></path>
-                            </svg>
                         </div>
                     </div>
                 </div>
@@ -111,22 +199,17 @@
                         <div data-swiper-parallax="-500" class="col-sm-6 pt-5 pt-md-0">
                             <p class="subtitle letter-spacing-3 mb-3 text-dark font-weight-light">22-26
                                 octomber</p>
-                            <h2 style="line-height: 1" class="display-3 undefined">Anhelli. The Howl in
+                            <h2 style="line-height: 1" class="display-2">Anhelli. The Howl in
                                 S.Petersburg</h2>
                             <p class="text-muted mb-5 pt-3">The bedding was hardly able to cover it and seemed ready
                                 to slide off
-                                any moment. His many legs, pit</p><a href="#" class="btn btn-outline-primary">Discover
+                                any moment. His many legs, pit</p><a href="about-view.html"
+                                                                     class="btn btn-outline-primary">Discover
                             more</a>
                         </div>
                         <div class="col-sm-6 text-left text-sm-center"><img src="img/ola.png" alt=""
                                                                             data-swiper-parallax="-200"
                                                                             class="img-fluid home-slider-image">
-                            <svg style="color: #B9DDFF"
-                                 class="svg-blob d-none d-md-inline-block svg-blob-fill-current svg-blob-swiper"
-                                 viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" id="blob-shape-3">
-                                <path d="M456.5 103.8c39.6 42.8 60.2 98.6 63.7 152.4 3.6 53.7-10 105.5-39.1 141.3-29.1 35.8-73.6 55.6-117.4 67.1-43.9 11.4-87 14.6-120.7-.8s-58.1-49.4-87.1-86.8c-29-37.5-62.6-78.4-57.4-113.4 5.1-35 49-64 89-106.8 40.1-42.8 76.3-99.3 123.6-112.6C358.5 31 417 60.9 456.5 103.8z"
-                                      style="fill:var(--layer1, #8ed1fc)" fill="#8ed1fc"></path>
-                            </svg>
                         </div>
                     </div>
                 </div>
@@ -137,22 +220,17 @@
                         <div data-swiper-parallax="-500" class="col-sm-6 pt-5 pt-md-0">
                             <p class="subtitle letter-spacing-3 mb-3 text-dark font-weight-light">10-19
                                 september</p>
-                            <h2 style="line-height: 1" class="display-3 undefined">Anhelli.the Howl in
+                            <h2 style="line-height: 1" class="display-2">Anhelli.the Howl in
                                 Tokyo</h2>
                             <p class="text-muted mb-5 pt-3">The bedding was hardly able to cover it and seemed ready
                                 to slide off
-                                any moment. His many legs, pit</p><a href="#" class="btn btn-outline-primary">Discover
+                                any moment. His many legs, pit</p><a href="about-view.html"
+                                                                     class="btn btn-outline-primary">Discover
                             more</a>
                         </div>
                         <div class="col-sm-6 text-left text-sm-center"><img src="img/anh.png" alt=""
                                                                             data-swiper-parallax="-200"
                                                                             class="img-fluid home-slider-image">
-                            <svg style="color: #B9DDFF"
-                                 class="svg-blob d-none d-md-inline-block svg-blob-fill-current svg-blob-swiper"
-                                 viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" id="blob-shape-3">
-                                <path d="M456.5 103.8c39.6 42.8 60.2 98.6 63.7 152.4 3.6 53.7-10 105.5-39.1 141.3-29.1 35.8-73.6 55.6-117.4 67.1-43.9 11.4-87 14.6-120.7-.8s-58.1-49.4-87.1-86.8c-29-37.5-62.6-78.4-57.4-113.4 5.1-35 49-64 89-106.8 40.1-42.8 76.3-99.3 123.6-112.6C358.5 31 417 60.9 456.5 103.8z"
-                                      style="fill:var(--layer1, #8ed1fc)" fill="#8ed1fc"></path>
-                            </svg>
                         </div>
                     </div>
                 </div>
@@ -161,23 +239,19 @@
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <div data-swiper-parallax="-500" class="col-sm-6 pt-5 pt-md-0">
-                            <p class="subtitle letter-spacing-3 mb-3 text-dark font-weight-light"></p>10-19
-                            march
-                            <h2 style="line-height: 1" class="display-3 undefined">Expedition to Anatolia</h2>
+                            <p class="subtitle letter-spacing-3 mb-3 text-dark font-weight-light">10-19
+                                march</p>
+                            <h2 style="line-height: 1" class="display-2">Expedition to Anatolia</h2>
                             <p class="text-muted mb-5 pt-3">The bedding was hardly able to cover it and seemed ready
                                 to slide off
-                                any moment. His many legs, pit</p><a href="#" class="btn btn-outline-primary">Discover
+                                any moment. His many legs, pit</p><a href="post-view.html"
+                                                                     class="btn btn-outline-primary">Discover
                             more</a>
                         </div>
                         <div class="col-sm-6 text-left text-sm-center"><img src="img/wall.png" alt=""
                                                                             data-swiper-parallax="-200"
                                                                             class="img-fluid home-slider-image">
-                            <svg style="color: #B9DDFF"
-                                 class="svg-blob d-none d-md-inline-block svg-blob-fill-current svg-blob-swiper"
-                                 viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" id="blob-shape-3">
-                                <path d="M456.5 103.8c39.6 42.8 60.2 98.6 63.7 152.4 3.6 53.7-10 105.5-39.1 141.3-29.1 35.8-73.6 55.6-117.4 67.1-43.9 11.4-87 14.6-120.7-.8s-58.1-49.4-87.1-86.8c-29-37.5-62.6-78.4-57.4-113.4 5.1-35 49-64 89-106.8 40.1-42.8 76.3-99.3 123.6-112.6C358.5 31 417 60.9 456.5 103.8z"
-                                      style="fill:var(--layer1, #8ed1fc)" fill="#8ed1fc"></path>
-                            </svg>
+
                         </div>
                     </div>
                 </div>
@@ -199,44 +273,46 @@
                 <div style="" data-aos="fade-down"
                      data-aos-delay="100" class="banner gradient-green">
                     <div class="banner-text p-3 p-lg-5">
-                        <p style="color: #3b5d59" class="subtitle text-sm">Presentations</p>
-                        <h2 class="mb-0">Performances </h2>
+                        <p class="subtitle text-primary text-sm">Presentations</p>
+                        <h2 class="mb-0 font-weight-bold text-muted">Performances </h2>
                     </div>
                     <div class="banner-bg"><img src="img/anh.png" alt="" class="img-fluid"></div>
-                    <a href="#" class="stretched-link banner-link"><span class="sr-only">See performances</span></a>
+                    <a href="performances.html" class="stretched-link banner-link"><span class="sr-only">See performances</span></a>
                 </div>
             </div>
             <div class="mb-2 col-12 col-lg-5 px-1">
                 <div data-aos="fade-left"
                      data-aos-delay="200" class="banner gradient-yellow">
                     <div class="banner-text p-3 p-lg-5">
-                        <p style="color: #6d5900" class="subtitle text-sm">Actions and studios</p>
-                        <h2 class="mb-0">Projects</h2>
+                        <p class="subtitle text-primary text-sm">Actions and studios</p>
+                        <h2 class="mb-0 font-weight-bold text-muted">Studio</h2>
                     </div>
                     <div class="banner-bg"><img src="img/ola.png" alt="" class="img-fluid"></div>
-                    <a href="#" class="stretched-link banner-link"><span class="sr-only">See Projects</span></a>
+                    <a href="studio.html" class="stretched-link banner-link"><span
+                            class="sr-only">See Projects</span></a>
                 </div>
             </div>
             <div class="mb-2 col-12 col-lg-5 px-1">
                 <div data-aos="fade-right"
                      data-aos-delay="300" class="banner gradient-pink">
                     <div class="banner-text p-3 p-lg-5">
-                        <p style="color: #7d514f" class="subtitle text-sm">For practitioners </p>
-                        <h2 class="mb-0">Workshops</h2>
+                        <p class="subtitle text-primary text-sm">For practitioners </p>
+                        <h2 class="mb-0 font-weight-bold text-muted">Workshops</h2>
                     </div>
                     <div class="banner-bg"><img src="img/wall.png" alt="" class="img-fluid"></div>
-                    <a href="#" class="stretched-link banner-link"><span class="sr-only">See Workshops</span></a>
+                    <a href="workshop.html" class="stretched-link banner-link"><span
+                            class="sr-only">See Workshops</span></a>
                 </div>
             </div>
             <div class="mb-2 col-12  col-lg-7 px-1">
                 <div data-aos="fade-up"
                      data-aos-delay="400" class="banner gradient-blue">
                     <div class="banner-text p-3 p-lg-5">
-                        <p style="color: #46619a" class="subtitle text-sm">On line streaming</p>
-                        <h2 class="mb-0">ZarStream </h2>
+                        <p class="subtitle text-primary text-sm">Live stream</p>
+                        <h2 class="mb-0 font-weight-bold text-muted">ZarStream </h2>
                     </div>
                     <div class="banner-bg"><img src="img/ale.png" alt="" class="img-fluid"></div>
-                    <a href="#" class="stretched-link banner-link"><span class="sr-only">See ZarStream</span></a>
+                    <a href="stream.html" class="stretched-link banner-link"><span class="sr-only">See ZarStream</span></a>
                 </div>
             </div>
         </div>
@@ -249,20 +325,18 @@
 
     <div class="position-relative py-3 mt-5 overflow-hidden"
          style="background-image: url('img/wave-yellow.svg'); background-size: cover; background-position: 0 35%; transform: translateY(3px);">
-        <div class="container "><img data-aos="zoom-in" data-aos-delay="300"
-                                     style="right: 5%;top: 15%; max-width: 500px; z-index: 5;" src="img/trav.png" alt=""
-                                     class="position-absolute d-none d-lg-block">
-            <div data-aos="fade-up" class="position-relative z-index-10">
-                <p style="color: #846707;" class="subtitle mb-3">Expedition</p>
-                <h4 class="h1 mb-3">Expedition to Turky</h4>
-                <h5 class="h2 font-weight-light mb-5">Travel to Anatolia</h5><a href="#" class="btn btn-outline-dark">Discover
+        <div class="container " data-aos="fade-right"
+             data-aos-delay="200">
+            <h6 class="text-primary text-uppercase letter-spacing-5 mb-3">News</h6>
+            <h4 class=" mb-3 display-2 font-weight-bold text-muted">Latest News</h4>
+            <a href="news.html" class="btn btn-outline-dark">Discover
                 more</a>
-            </div>
         </div>
     </div>
+
     <!-- end section one banner -->
 
-    <!-- last section -->
+    <!-- news section -->
 
 
     <div class="py-2 position-relative overflow-hidden"
@@ -271,113 +345,123 @@
 
         <div class="container ">
 
-            <div class="row my-md-5 py-md-5 my-2 py-2">
-                <div class="col-12 col-md-6">
-
-                    <a href="#"><img class="thumbnail img-fluid shadow news-image-section position-relative"
-                                     src="img/back_8.jpg"
-                                     alt="image" style="z-index: 10"></a>
-                    <img src="img/blob-shape.svg" style="max-width: 500px; position: absolute; top: 0; left: -35%;"
-                         class="svg-rotate-animation">
-                </div>
-                <div class="col-12 col-md-6">
-                    <div class=" pl-md-5  pt-4 pt-md-0 pt-lg-0" data-aos="fade-up"
-                         data-aos-delay="300">
-                        <p style="color: #846707;" class="subtitle mb-3">Performance</p>
-                        <h4 class="h1 mb-3">Caesarean Section</h4>
-                        <p class="font-weight-light mb-5">Nulla tempus congue sagittis. Suspendisse eu nisl et eros
-                            tempor ultrices. Morbi nec felis consequat, suscipit turpis eu, tincidunt lectus. In vitae
-                            tellus vitae odio tincidunt malesuada eu vel mi.</p><a href="#"
-                                                                                   class="btn btn-outline-dark">Discover
-                        more</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row my-5 py-5">
-                <div class="col-12  d-sm-block d-md-none d-lg-none">
-                    <a href="#"><img class="thumbnail img-fluid shadow news-image-section position-relative"
-                                     src="img/back_23.jpg"
-                                     alt="image" style="z-index: 10"></a>
-                    <img src="img/blob-shape.svg" style="max-width: 500px; position: absolute; top: 0; right: -35%;"
-                         class="svg-rotate-animation">
-                </div>
-                <div class="col-12 col-md-6 ">
-                    <div class=" pl-md-5  pt-4 pt-md-0 pt-lg-0" data-aos="fade-up"
-                         data-aos-delay="300">
-                        <p style="color: #846707;" class="subtitle mb-3">Expedition</p>
-                        <h4 class="h1 mb-3">Expedition to Turky</h4>
-                        <p class="font-weight-light mb-5">Nulla tempus congue sagittis. Suspendisse eu nisl et eros
-                            tempor ultrices. Morbi nec felis consequat, suscipit turpis eu, tincidunt lectus. In vitae
-                            tellus vitae odio tincidunt malesuada eu vel mi.</p><a href="#"
-                                                                                   class="btn btn-outline-dark">Discover
-                        more</a>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 d-none d-md-block">
-                    <a href="#"><img class="thumbnail img-fluid shadow news-image-section position-relative"
-                                     src="img/back_23.jpg"
-                                     alt="image" style="z-index: 10"></a>
-                    <img src="img/blob-shape.svg" style="max-width: 500px; position: absolute; top: 0; right: -35%;"
-                         class="svg-rotate-animation">
-                </div>
-            </div>
+            <!-- item 1-->
 
             <div class="row my-md-5 py-md-5 my-2 py-2">
-                <div class="col-12 col-md-6">
-                    <a href="#"><img class="thumbnail img-fluid shadow news-image-section position-relative"
-                                     src="img/sardinia.jpg"
-                                     alt="image" style="z-index: 10"></a>
-                    <img src="img/blob-shape.svg" style="max-width: 500px; position: absolute; top: 0; left: -35%;"
-                         class="svg-rotate-animation">
+                <div class="col-12 col-lg-7 col-md-6">
+                    <img class="thumbnail img-fluid shadow news-image-section "
+                         src="img/Gruzin_2.jpg"
+                         alt="image">
                 </div>
-                <div class="col-12 col-md-6">
-                    <div class=" pl-md-5  pt-4 pt-md-0 pt-lg-0" data-aos="fade-up"
-                         data-aos-delay="300">
-                        <p style="color: #846707;" class="subtitle mb-3">Expedition</p>
-                        <h4 class="h1 mb-3">Expedition to Sardinia</h4>
+                <div class="col-12 col-md-6 col-lg-4 card shadow card-item-news-odd position-relative justify-content-center ">
+                    <img src="img/blob-shape.svg" style="max-width: 450px;position: absolute;top: 0;right: 10%;"
+                         class="svg-rotate-animation">
+                    <div class=" card-body" data-aos="fade-left"
+                         data-aos-delay="400">
+                        <p class="subtitle text-primary mb-3">Studio</p>
+                        <h4 class="h2 mb-3">Georgian polyphonic studio</h4>
                         <p class="font-weight-light mb-5">Nulla tempus congue sagittis. Suspendisse eu nisl et eros
                             tempor ultrices. Morbi nec felis consequat, suscipit turpis eu, tincidunt lectus. In vitae
-                            tellus vitae odio tincidunt malesuada eu vel mi.</p><a href="#"
-                                                                                   class="btn btn-outline-dark">Discover
+                            tellus vitae odio tincidunt malesuada eu vel mi.</p><a href="about-view.html"
+                                                                                   class="btn btn-outline-primary">Discover
                         more</a>
                     </div>
                 </div>
             </div>
 
-            <div class="row mt-5 pt-5">
+            <!-- end item 1-->
+
+            <!-- item 2-->
+
+            <div class="row my-md-5 py-md-5 my-2 py-2">
                 <div class="col-12  d-sm-block d-md-none d-lg-none">
-                    <a href="#"><img class="thumbnail img-fluid shadow news-image-section position-relative "
-                                     src="img/warsztat.jpg"
-                                     alt="image" style="z-index: 10"></a>
-                    <img src="img/blob-shape.svg" style="max-width: 500px; position: absolute; top: 0; right: -35%;"
-                         class="svg-rotate-animation">
+                    <img class="thumbnail img-fluid shadow news-image-section "
+                         src="img/Anhelli_2.jpg"
+                         alt="image">
                 </div>
-                <div class="col-12 col-md-6 ">
-                    <div class=" pl-md-5  pt-4 pt-md-0 pt-lg-0" data-aos="fade-up"
-                         data-aos-delay="300">
-                        <p style="color: #846707;" class="subtitle mb-3">Workshops</p>
-                        <h4 class="h1 mb-3">Four Centres</h4>
+                <div class="col-12 col-md-6 col-lg-4 card shadow card-item-news-even position-relative justify-content-center">
+                    <img src="img/blob-shape.svg" style="max-width: 450px;position: absolute;top: 0;right: 10%;"
+                         class="svg-rotate-animation">
+                    <div class=" card-body" data-aos="fade-left"
+                         data-aos-delay="400">
+                        <p class="subtitle text-primary mb-3">Performance</p>
+                        <h4 class="h2 mb-3">Anhelli.The Howl</h4>
                         <p class="font-weight-light mb-5">Nulla tempus congue sagittis. Suspendisse eu nisl et eros
                             tempor ultrices. Morbi nec felis consequat, suscipit turpis eu, tincidunt lectus. In vitae
-                            tellus vitae odio tincidunt malesuada eu vel mi.</p><a href="#"
-                                                                                   class="btn btn-outline-dark">Discover
+                            tellus vitae odio tincidunt malesuada eu vel mi.</p><a href="about-view.html"
+                                                                                   class="btn btn-outline-primary">Discover
                         more</a>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 d-none d-md-block">
-                    <a href="#"><img class="thumbnail img-fluid shadow news-image-section position-relative "
-                                     src="img/warsztat.jpg"
-                                     alt="image" style="z-index: 10"></a>
-                    <img src="img/blob-shape.svg" style="max-width: 500px; position: absolute; top: 0; right: -35%;"
-                         class="svg-rotate-animation">
+                <div class="col-12 col-lg-7 col-md-6 d-none d-md-block">
+                    <img class="thumbnail img-fluid shadow news-image-section "
+                         src="img/Anhelli_2.jpg"
+                         alt="image">
                 </div>
             </div>
 
+            <!-- end item 2-->
+
+            <!-- item 1-->
+
+            <div class="row my-md-5 py-md-5 my-2 py-2">
+                <div class="col-12 col-lg-7 col-md-6">
+                    <img class="thumbnail img-fluid shadow news-image-section "
+                         src="img/back_3.jpg"
+                         alt="image">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 card shadow card-item-news-odd position-relative justify-content-center">
+                    <img src="img/blob-shape.svg" style="max-width: 450px;position: absolute;top: 0;right: 10%;"
+                         class="svg-rotate-animation">
+                    <div class=" card-body" data-aos="fade-left"
+                         data-aos-delay="400">
+                        <p class="subtitle text-primary mb-3">Expedition</p>
+                        <h4 class="h2 mb-3">Expedition to Anatolia</h4>
+                        <p class="font-weight-light mb-5">Nulla tempus congue sagittis. Suspendisse eu nisl et eros
+                            tempor ultrices. Morbi nec felis consequat, suscipit turpis eu, tincidunt lectus. In vitae
+                            tellus vitae odio tincidunt malesuada eu vel mi.</p><a href="post-view.html"
+                                                                                   class="btn btn-outline-primary">Discover
+                        more</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- end item 1-->
+
+            <!-- item 2-->
+
+            <div class="row my-md-5 py-md-5 my-2 py-2">
+                <div class="col-12  d-sm-block d-md-none d-lg-none">
+                    <img class="thumbnail img-fluid shadow news-image-section "
+                         src="img/warsztat.jpg"
+                         alt="image">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 card shadow card-item-news-even position-relative justify-content-center">
+                    <img src="img/blob-shape.svg" style="max-width: 450px;position: absolute;top: 0;right: 10%;"
+                         class="svg-rotate-animation">
+                    <div class=" card-body" data-aos="fade-left"
+                         data-aos-delay="400">
+                        <p class="subtitle text-primary mb-3">Workshops</p>
+                        <h4 class="h2 mb-3">Four Centres</h4>
+                        <p class="font-weight-light mb-5">Nulla tempus congue sagittis. Suspendisse eu nisl et eros
+                            tempor ultrices. Morbi nec felis consequat, suscipit turpis eu, tincidunt lectus. In vitae
+                            tellus vitae odio tincidunt malesuada eu vel mi.</p><a href="about-view.html    "
+                                                                                   class="btn btn-outline-primary">Discover
+                        more</a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-7 col-md-6 d-none d-md-block">
+                    <img class="thumbnail img-fluid shadow news-image-section "
+                         src="img/warsztat.jpg"
+                         alt="image">
+                </div>
+            </div>
+
+            <!-- end item 2-->
         </div>
+
     </div>
-
-
+    <!-- wrapper -->
 </div>
 
 
@@ -390,64 +474,107 @@
 
     <img src="img/wave.svg" style="width: 100%; max-height: 350px; transform: translateY(5px);">
     <div style="background-color: #B9DDFF;">
-        <div class="container pb-5">
+        <div class="container pb-5 ">
             <div class="row">
-                <div class="col-6 col-sm pl-lg-5 pl-md-5">
-                    <h6 class="text-dark letter-spacing-1 mb-4 ">Performances</h6>
-                    <ul class="list-unstyled text-sm pt-2 pt-lg-0">
-                        <li class="mb-2"><a href="#" class="text-muted text-hover-dark link-animated">Anhelli.The
+
+                <div class="col-6 col-md-6 col-lg-3 pb-4 text-left pl-4 pl-sm-5">
+                    <h6 class="text-dark font-weight-bold letter-spacing-1 mb-4 ">Performances</h6>
+                    <ul class="list-unstyled text-sm pt-2 pt-lg-0 ">
+                        <li class="mb-2"><a href="about-view.html" class="text-muted text-hover-dark link-animated">Anhelli.The
                             Howl</a></li>
-                        <li class="mb-2"><a href="#" class="text-muted text-hover-dark link-animated">Medeas.Getting
+                        <li class="mb-2"><a href="about-view.html" class="text-muted text-hover-dark link-animated">Medeas.Getting
                             across</a></li>
-                        <li class="mb-2"><a href="#" class="text-muted text-hover-dark link-animated">Stores</a></li>
-                        <li class="mb-2"><a href="#" class="text-muted text-hover-dark link-animated">Our
-                            Blog</a></li>
-                        <li class="mb-2"><a href="#" class="text-muted text-hover-dark link-animated">Shop</a></li>
-                    </ul>
-                </div>
-                <div class="col-6 col-sm  pl-lg-5 pl-md-5">
-                    <h6 class="text-dark letter-spacing-1 mb-4 ">Projects</h6>
-                    <ul class="list-unstyled text-sm pt-2 pt-lg-0">
-                        <li class="mb-2"><a href="#" class="text-muted text-hover-dark link-animated">Anamnesis</a></li>
-                        <li class="mb-2"><a href="#" class="text-muted text-hover-dark link-animated">Armine, sister</a>
+                        <li class="mb-2"><a href="about-view.html" class="text-muted text-hover-dark link-animated">Armine,
+                            sister</a>
                         </li>
-                        <li class="mb-2"><a href="#" class="text-muted text-hover-dark link-animated">Stores</a></li>
-                        <li class="mb-2"><a href="#" class="text-muted text-hover-dark link-animated">Studio</a></li>
-                        <li class="mb-2"><a href="#" class="text-muted text-hover-dark link-animated">Back to
-                            Beckett</a>
+                        <li class="mb-2"><a href="about-view.html" class="text-muted text-hover-dark link-animated">Caesarean
+                            Section</a></li>
+                        <li class="mb-2"><a href="about-view.html" class="text-muted text-hover-dark link-animated">Gospel
+                            of Childhood</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-6 col-lg-3 pb-4 text-left pl-4 pl-sm-5">
+                    <h6 class="text-dark font-weight-bold letter-spacing-1 mb-4 ">Projects</h6>
+                    <ul class="list-unstyled text-sm pt-2 pt-lg-0">
+                        <li class="mb-2"><a href="stream.html" class="text-muted text-hover-dark link-animated">ZARstream</a>
+                        </li>
+                        <li class="mb-2"><a href="studio.html"
+                                            class="text-muted text-hover-dark link-animated">Studio</a>
+                        </li>
+                        <li class="mb-2"><a href="project-item.html" class="text-muted text-hover-dark link-animated">BodyConstitution</a>
+                        </li>
+                        <li class="mb-2"><a href="book.html" class="text-muted text-hover-dark link-animated">Book</a>
+                        </li>
+                        <li class="mb-2"><a href="expedition.html" class="text-muted text-hover-dark link-animated">Expedition</a>
                         </li>
                     </ul>
                 </div>
-                <div class="col-6 col-sm  pl-lg-5 pl-md-5">
-                    <h6 class="text-dark letter-spacing-1 mb-4 ">History</h6>
+
+
+                <div class="col-6 col-md-6 col-lg-3 pb-4 text-left pl-4 pl-sm-5">
+                    <h6 class="text-dark font-weight-bold letter-spacing-1 mb-4 ">Contact</h6>
                     <ul class="list-unstyled text-sm pt-2 pt-lg-0">
-                        <li class="mb-2"><a href="#" class="text-muted text-hover-dark link-animated">About</a></li>
-                        <li class="mb-2"><a href="#" class="text-muted text-hover-dark link-animated">Team</a></li>
-                        <li class="mb-2"><a href="#" class="text-muted text-hover-dark link-animated">Stores</a></li>
-                    </ul>
-                </div>
-                <div class="col-6 col-sm  pl-lg-5 pl-md-5">
-                    <h6 class="text-dark letter-spacing-1 mb-4 ">Contact</h6>
-                    <ul class="list-unstyled text-sm pt-2 pt-lg-0">
-                        <li class="mb-2"><a href="#" class="text-muted text-hover-dark link-animated">+48 732 390
-                            454</a>
+                        <li class="mb-2"><a class="text-muted text-hover-dark link-animated"
+                                            href="tel:+48693927324"><strong>+48 693 927 324</strong></a>
                         </li>
 
-                        <li class="mb-2"><a href="#"
-                                            class="text-muted text-hover-dark link-animated">contact@teatrzar.pl</a>
+
+                        <li class="mb-2"><a class="text-muted text-hover-dark link-animated"
+                                            href="mailto:webmaster@example.com">contact@teatrzar.com</a>
                         </li>
                     </ul>
                 </div>
+
+                <div class="col-6 col-md-6 col-lg-3 pl-4 pl-sm-5">
+
+                    <!-- Heading -->
+                    <h5 class="mb-3"><a href="index.html"
+                                        class="text-dark text-hover-dark link-animated font-weight-bold letter-spacing-1">Teatr
+                        ZAR</a></h5>
+
+                    <!-- Social -->
+                    <ul class="list-unstyled list-inline pt-2 pt-lg-0 footer-social-btn ">
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.facebook.com/Teatr-ZAR-229627130749/"
+                               class="text-gray-350">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.instagram.com/teatrzar/" class="text-gray-350">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.youtube.com/channel/UC7xQfa_Z8YYKULqhfNnG_ag"
+                               class="text-gray-350">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
         </div>
+        <!-- background color block-->
     </div>
 </footer>
 
 <script src="js/jquery/jquery-3.4.1.min.js"></script>
 <script src="js/bootstrap/js/bootstrap.min.js"></script>
 <script src="js/swiper/js/swiper.min.js"></script>
+<script src="js/fontawesome/brands.min.js"></script>
+<script src="js/fontawesome/solid.min.js"></script>
+<script src="js/fontawesome/all.min.js"></script>
 <script src="js/aos/aos.js"></script>
+<script src="js/masonry/masonry.pkgd.min.js"></script>
+<script src="js/masonry/imagesloaded.pkgd.min.js"></script>
+<script src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
 <script src="js/simpleParallax/simpleParallax.min.js"></script>
 <script src="js/custom.js"></script>
 </body>
+
 </html>

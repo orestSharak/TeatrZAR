@@ -1,7 +1,6 @@
-
 // Bootstrap hover for drop down menu
 
-var mq = window.matchMedia( "(min-width: 992px)" );
+var mq = window.matchMedia("(min-width: 992px)");
 if (mq.matches) {
     $('.dropdown').hover(
         function () {
@@ -27,7 +26,7 @@ if (mq.matches) {
 
 /* for large screen */
 
-var mq = window.matchMedia( "(min-width: 992px)" );
+var mq = window.matchMedia("(min-width: 992px)");
 if (mq.matches) {
 
     const body = document.body;
@@ -37,7 +36,7 @@ if (mq.matches) {
     const scrollDown = "scroll-down";
     let lastScroll = 0;
 
-    window.addEventListener("scroll", () => {
+    window.addEventListener("scroll", function () {
         const currentScroll = window.pageYOffset;
         if (currentScroll == 0) {
             body.classList.remove(scrollUp);
@@ -58,15 +57,14 @@ if (mq.matches) {
 }
 /* for device */
 
-var mq = window.matchMedia( "(max-width: 992px)" );
+var mq = window.matchMedia("(max-width: 992px)");
 if (mq.matches) {
 
     const body = document.body;
     const triggerMenu = document.querySelector(".header .first-button");
-    triggerMenu.addEventListener("click", () => {
+    triggerMenu.addEventListener("click", function () {
         body.classList.toggle("menu-open");
     });
-
 }
 
 
@@ -82,14 +80,12 @@ AOS.init({
 });
 
 
-
 //  Hamburger animation
 
 $('.first-button').on('click', function () {
 
     $('.animated-icon1').toggleClass('open');
 });
-
 
 
 //  Swiper slider
@@ -142,4 +138,57 @@ var video = document.getElementsByTagName('video');
 new simpleParallax(video, {
     overflow: true
 });
+
+// masonry property
+
+
+
+(function ($) {
+    var $grid = $('.masonry-wrapper').masonry({
+        itemSelector: '.item',
+        columnWidth: '.item',
+        percentPosition: true,
+        transitionDuration: 300,
+    });
+
+    $grid.imagesLoaded().progress( function() {
+        $grid.masonry();
+    });
+}(jQuery));
+
+//  magnific popup
+
+// images
+
+
+    $('.gallery').each(function () { // the containers for all your galleries
+        $(this).magnificPopup({
+            delegate: 'a', // the selector for gallery item
+            type: 'image',
+            gallery: {
+                enabled: true
+            },
+            mainClass: 'mfp-with-zoom', // this class is for CSS animation below
+
+            zoom: {
+                enabled: true, // By default it's false, so don't forget to enable it
+
+                duration: 300, // duration of the effect, in milliseconds
+                easing: 'ease-in-out', // CSS transition easing function
+
+                // The "opener" function should return the element from which popup will be zoomed in
+                // and to which popup will be scaled down
+                // By defailt it looks for an image tag:
+                opener: function (openerElement) {
+                    // openerElement is the element on which popup was initialized, in this case its <a> tag
+                    // you don't need to add "opener" option if this code matches your needs, it's defailt one.
+                    return openerElement.is('img') ? openerElement : openerElement.find('img');
+                }
+            }
+        });
+    });
+
+
+
+
 
