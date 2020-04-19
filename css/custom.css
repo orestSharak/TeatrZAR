@@ -53,17 +53,22 @@
 /* fonts in body */
 
 body {
-    font-family: "vremenagrotesk", sans-serif;
-    font-size: 1.125rem;
-    font-weight: 400;
-    line-height: 1.6;
-    margin: 0;
+    font-family: "vremenagrotesk", sans-serif !important;
+    font-size: 1.125rem !important;
+    font-weight: 400 !important;
+    line-height: 1.6 !important;
+    margin: 0 !important;
     color: #212529;
-    text-align: left;
-    background-color: #fff
+    text-align: left !important;
+    background-color: #fff !important;
 }
 
-/* */
+.text-primary {
+    color: #bcac76 !important;
+}
+
+
+/* svg color */
 
 :root{
     --layer1:#e0d4ab;
@@ -75,7 +80,7 @@ body {
     z-index: 100;
     background: transparent;
     position: fixed;
-    top: 0;
+    top: -1% !important;
     width: 100%;
     -webkit-transition: all 300ms;
     -moz-transition: all 300ms;
@@ -805,9 +810,6 @@ a:hover {
 
 /* history page */
 
-.text-primary {
-    color: #bcac76 !important;
-}
 
 .letter-spacing-5 {
     letter-spacing: .5em;
