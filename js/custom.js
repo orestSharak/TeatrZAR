@@ -189,6 +189,21 @@ new simpleParallax(video, {
     });
 
 
+    // slick slider
+
+$('.slider').slick({
+    autoplay: true,
+    speed: 800,
+    arrows: false,
+    dots: true,
+    pauseOnHover:false,
+    pauseOnFocus:false,
+    pauseOnDotsHover:false,
+    fade:false,
+    autoplaySpeed: 6000
+}).slickAnimation();
+
+
 
 
 
