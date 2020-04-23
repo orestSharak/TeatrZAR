@@ -1112,6 +1112,11 @@ audio {
 
 
 }
+.slick, .slick-wrapper {
+    width: 100%;
+}
+
+
 .slick-list{
     overflow: hidden;
 }
@@ -1119,10 +1124,6 @@ audio {
     clear: both;
     content: "";
     display: block;
-}
-
-.slick, .slick-wrapper {
-    width: 100%;
 }
 
 .slick-slide:not(.slick-current) {
