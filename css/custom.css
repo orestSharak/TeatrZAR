@@ -1112,13 +1112,9 @@ audio {
 
 
 }
-.slick, .slick-wrapper {
-    width: 100%;
-}
-
 
 .slick-list{
-    overflow: hidden;
+    overflow: hidden !important;
 }
 .slick-list:after{
     clear: both;
@@ -1126,9 +1122,6 @@ audio {
     display: block;
 }
 
-.slick-slide:not(.slick-current) {
-    visibility: hidden !important;
-}
 
 .slick-dotted .slick-slider {
     margin-bottom: 30px;
