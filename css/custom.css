@@ -1112,7 +1112,22 @@ audio {
 
 
 }
+.slick-list{
+    overflow: hidden;
+}
+.slick-list:after{
+    clear: both;
+    content: "";
+    display: block;
+}
 
+.slick, .slick-wrapper {
+    width: 100%;
+}
+
+.slick-slide:not(.slick-current) {
+    visibility: hidden !important;
+}
 
 .slick-dotted .slick-slider {
     margin-bottom: 30px;
