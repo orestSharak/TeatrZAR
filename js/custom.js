@@ -203,7 +203,7 @@ new simpleParallax(video, {
         fade: false,
         autoplaySpeed: 6000
     }).slickAnimation();
-}(jQuery)
+})(jQuery);
 
 
 
