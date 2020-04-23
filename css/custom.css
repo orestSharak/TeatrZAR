@@ -1112,29 +1112,12 @@ audio {
 
 
 }
-.slick, .slick-wrapper {
-    width: 100%;
-}
 
-
-.slick-list{
-    overflow: hidden;
-}
-.slick-list:after{
-    clear: both;
-    content: "";
-    display: block;
-}
 
 .slick-slide:not(.slick-current) {
     visibility: hidden !important;
 }
 
-.slick-slider {
-    display: table !important;
-    table-layout: fixed !important;
-    width: 100% !important;
-}
 
 .slick-dotted .slick-slider {
     margin-bottom: 30px;
