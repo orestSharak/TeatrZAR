@@ -7,7 +7,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c379c651-4759-489a-aa3b-e0d483ea2f5f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/slick/slick-animation.min.js" afterPath="$PROJECT_DIR$/js/slick/slick-animation.min.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,7 +31,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
@@ -65,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="custom.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="206" column="0" lean-forward="true" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
+            <state relative-caret-position="246">
+              <caret line="193" column="30" lean-forward="true" selection-start-line="193" selection-start-column="30" selection-end-line="193" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -110,7 +110,6 @@
         <option value="$PROJECT_DIR$/img/my-quote.svg" />
         <option value="$PROJECT_DIR$/css/slicky/slick.css" />
         <option value="$PROJECT_DIR$/css/slick/animate.min.css" />
-        <option value="$PROJECT_DIR$/js/slick/slick-animation.min.js" />
         <option value="$PROJECT_DIR$/slider.html" />
         <option value="$PROJECT_DIR$/prev-index.html" />
         <option value="$PROJECT_DIR$/old-slide.html" />
@@ -143,6 +142,7 @@
         <option value="$PROJECT_DIR$/css/custom.css" />
         <option value="$PROJECT_DIR$/js/custom.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/slick/slick-animation.min.js" />
       </list>
     </option>
   </component>
@@ -277,12 +277,12 @@
       <workItem from="1587324738704" duration="2550000" />
       <workItem from="1587401138281" duration="2602000" />
       <workItem from="1587413854828" duration="27842000" />
-      <workItem from="1587659581090" duration="27331000" />
+      <workItem from="1587659581090" duration="28364000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="224184000" />
+    <option name="totallyTimeSpent" value="225217000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -599,14 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/slick/slick-animation.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="14" column="709" lean-forward="false" selection-start-line="14" selection-start-column="709" selection-end-line="14" selection-end-column="709" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/slick/slick.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="535">
@@ -669,11 +661,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/custom.js">
+    <entry file="file://$PROJECT_DIR$/js/slick/slick-animation.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="206" column="0" lean-forward="true" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="238">
+          <caret line="14" column="758" lean-forward="false" selection-start-line="14" selection-start-column="758" selection-end-line="14" selection-end-column="758" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -696,6 +690,14 @@
             <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="193" column="30" lean-forward="true" selection-start-line="193" selection-start-column="30" selection-end-line="193" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
