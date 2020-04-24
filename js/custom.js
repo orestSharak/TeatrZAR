@@ -203,7 +203,7 @@ $(document).ready(function() {
         fade: false,
         autoplaySpeed: 6000,
         mobileFirst: true
-    }).slickAnimation();
+    })
 });
 
 
