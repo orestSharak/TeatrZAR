@@ -142,7 +142,6 @@ new simpleParallax(video, {
 // masonry property
 
 
-
 (function ($) {
     var $grid = $('.masonry-wrapper').masonry({
         itemSelector: '.item',
@@ -151,7 +150,7 @@ new simpleParallax(video, {
         transitionDuration: 300,
     });
 
-    $grid.imagesLoaded().progress( function() {
+    $grid.imagesLoaded().progress(function () {
         $grid.masonry();
     });
 }(jQuery));
@@ -161,37 +160,37 @@ new simpleParallax(video, {
 // images
 
 
-    $('.gallery').each(function () { // the containers for all your galleries
-        $(this).magnificPopup({
-            delegate: 'a', // the selector for gallery item
-            type: 'image',
-            gallery: {
-                enabled: true
-            },
-            mainClass: 'mfp-with-zoom', // this class is for CSS animation below
+$('.gallery').each(function () { // the containers for all your galleries
+    $(this).magnificPopup({
+        delegate: 'a', // the selector for gallery item
+        type: 'image',
+        gallery: {
+            enabled: true
+        },
+        mainClass: 'mfp-with-zoom', // this class is for CSS animation below
 
-            zoom: {
-                enabled: true, // By default it's false, so don't forget to enable it
+        zoom: {
+            enabled: true, // By default it's false, so don't forget to enable it
 
-                duration: 300, // duration of the effect, in milliseconds
-                easing: 'ease-in-out', // CSS transition easing function
+            duration: 300, // duration of the effect, in milliseconds
+            easing: 'ease-in-out', // CSS transition easing function
 
-                // The "opener" function should return the element from which popup will be zoomed in
-                // and to which popup will be scaled down
-                // By defailt it looks for an image tag:
-                opener: function (openerElement) {
-                    // openerElement is the element on which popup was initialized, in this case its <a> tag
-                    // you don't need to add "opener" option if this code matches your needs, it's defailt one.
-                    return openerElement.is('img') ? openerElement : openerElement.find('img');
-                }
+            // The "opener" function should return the element from which popup will be zoomed in
+            // and to which popup will be scaled down
+            // By defailt it looks for an image tag:
+            opener: function (openerElement) {
+                // openerElement is the element on which popup was initialized, in this case its <a> tag
+                // you don't need to add "opener" option if this code matches your needs, it's defailt one.
+                return openerElement.is('img') ? openerElement : openerElement.find('img');
             }
-        });
+        }
     });
+});
 
 
-    // slick slider
+// slick slider
 
-$(document).ready(function() {
+$(document).ready(function () {
     $('.slider').slick({
         autoplay: true,
         speed: 800,
@@ -202,7 +201,16 @@ $(document).ready(function() {
         pauseOnDotsHover: false,
         fade: false,
         autoplaySpeed: 6000,
-        mobileFirst:true
+        mobileFirst: true,
+        responsive: [
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
     }).slickAnimation();
 });
 
