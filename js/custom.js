@@ -94,15 +94,46 @@ $('.first-button').on('click', function () {
 
 $(function () {
 
+
+
     var homeSliderDesign = new Swiper('.home-slider-design', {
         slidesPerView: 1,
         spaceBetween: 0,
         centeredSlides: true,
         loop: true,
-        speed: 1500,
-        parallax: true,
+        speed: 1000,
         autoplay: {
-            delay: 5000,
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+            dynamicBullets: true
+        },
+        // Navigation arrows
+        navigation: {
+            nextEl: '#homeNext',
+            prevEl: '#homePrev',
+        }
+
+    });
+
+
+    // swiper animation
+
+    const swiperAnimation = new SwiperAnimation();
+    const mySwiper = new Swiper('.swiper-container', {
+
+        slidesPerView: 1,
+        spaceBetween: 0,
+        centeredSlides: true,
+        loop: true,
+        speed: 1000,
+        autoplay: {
+            delay: 5200,
+            disableOnInteraction: false,
         },
         // If we need pagination
         pagination: {
@@ -115,8 +146,22 @@ $(function () {
             nextEl: '#homeNext',
             prevEl: '#homePrev',
         },
+
+        hashNavigation: {
+            watchState: true,
+            replaceState: true
+        },
+        on: {
+            init: function () {
+                swiperAnimation.init(this).animate();
+            },
+            slideChange: function () {
+                swiperAnimation.init(this).animate();
+            }
+        }
     });
 
+    console.log(mySwiper);
 
 });
 
@@ -186,35 +231,6 @@ $('.gallery').each(function () { // the containers for all your galleries
         }
     });
 });
-
-
-// slick slider
-
-$(document).ready(function () {
-    $('.slider').slick({
-        autoplay: true,
-        speed: 800,
-        arrows: false,
-        dots: true,
-        pauseOnHover: false,
-        pauseOnFocus: false,
-        pauseOnDotsHover: false,
-        fade: false,
-        autoplaySpeed: 6000,
-        mobileFirst: true,
-        responsive: [
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
-        ]
-    })
-});
-
-
 
 
 
