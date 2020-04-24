@@ -1114,10 +1114,6 @@ audio {
 }
 
 
-.slick-slide:not(.slick-current) {
-    visibility: hidden !important;
-}
-
 
 .slick-dotted .slick-slider {
     margin-bottom: 30px;
