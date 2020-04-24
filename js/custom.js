@@ -202,7 +202,7 @@ $(document).ready(function() {
         pauseOnDotsHover: false,
         fade: false,
         autoplaySpeed: 6000
-    })
+    }).slickAnimation();
 });
 
 
