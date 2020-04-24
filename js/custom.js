@@ -191,7 +191,7 @@ new simpleParallax(video, {
 
     // slick slider
 
-$(document).ready(function() {
+
     $('.slider').slick({
         autoplay: true,
         speed: 800,
@@ -203,7 +203,7 @@ $(document).ready(function() {
         fade: false,
         autoplaySpeed: 6000
     }).slickAnimation();
-});
+
 
 
 
