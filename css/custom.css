@@ -1087,9 +1087,9 @@ audio {
 
 
 
- .slick-slide {
+ .slide {
         height: 80vh;
-     width: 100% !important;
+
 }
 
 .slide {
@@ -1170,11 +1170,11 @@ audio {
     color: #ffffff;
     opacity: 0.75;
 }
-.stick-dots .slick-dots li {
+ .slick-dots li {
     height: 10px;
     width: 10px;
 }
-.stick-dots .slick-dots li button {
+ .slick-dots li button {
     position: relative;
     background-color: #ffffff;
     opacity: 0.25;
@@ -1183,16 +1183,16 @@ audio {
     padding: 0;
     border-radius: 50%;
 }
-.stick-dots .slick-dots li button:hover,
-.stick-dots .slick-dots li button:focus {
+ .slick-dots li button:hover,
+ .slick-dots li button:focus {
     opacity: 1;
 }
-.stick-dots .slick-dots li.slick-active button {
+ .slick-dots li.slick-active button {
     color: #ffffff;
     opacity: 0.75;
 }
-.stick-dots .slick-dots li.slick-active button:hover,
-.stick-dots .slick-dots li.slick-active button:focus {
+ .slick-dots li.slick-active button:hover,
+ .slick-dots li.slick-active button:focus {
     opacity: 1;
 }
 /* /////////// IMAGE ZOOM /////////// */
