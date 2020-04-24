@@ -272,9 +272,30 @@
             <!-- end slide item -->
 
 
-
         </div>
         <!-- end of slider -->
+        <pre><code class="language-javascript">
+$('.slider').slick({
+        autoplay: true,
+        speed: 800,
+        arrows: false,
+        dots: true,
+        pauseOnHover: false,
+        pauseOnFocus: false,
+        pauseOnDotsHover: false,
+        fade: false,
+        autoplaySpeed: 6000,
+        responsive: [
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    }).slickAnimation();
+				</code></pre>
 
 
     </section>
