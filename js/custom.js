@@ -201,8 +201,7 @@ $(document).ready(function() {
         pauseOnFocus: false,
         pauseOnDotsHover: false,
         fade: false,
-        autoplaySpeed: 6000,
-        mobileFirst: true
+        autoplaySpeed: 6000
     })
 });
 
