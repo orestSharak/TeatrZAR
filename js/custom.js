@@ -88,40 +88,9 @@ $('.first-button').on('click', function () {
 });
 
 
-//  Swiper slider
-
-'use strict';
+// swiper slider with swiper animation
 
 $(function () {
-
-
-
-    var homeSliderDesign = new Swiper('.home-slider-design', {
-        slidesPerView: 1,
-        spaceBetween: 0,
-        centeredSlides: true,
-        loop: true,
-        speed: 1000,
-        autoplay: {
-            delay: 2500,
-            disableOnInteraction: false,
-        },
-        // If we need pagination
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-            dynamicBullets: true
-        },
-        // Navigation arrows
-        navigation: {
-            nextEl: '#homeNext',
-            prevEl: '#homePrev',
-        }
-
-    });
-
-
-    // swiper animation
 
     const swiperAnimation = new SwiperAnimation();
     const mySwiper = new Swiper('.swiper-container', {

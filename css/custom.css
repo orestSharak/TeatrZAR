@@ -524,6 +524,27 @@ svg {
     content: close-quote;
 }
 
+
+.logo-section a{
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.logo-section a:hover{
+    -webkit-transform: translateY(-.5rem);
+    -moz-transform: translateY(-.5rem);
+    -ms-transform: translateY(-.5rem);
+    -o-transform: translateY(.51rem);
+    transform: translateY(-.5rem);
+}
+
+.logo-section-img{
+    max-height: 80px;
+    width: auto;
+}
+
 /* ================================================= */
 
 /* about-view page  */
