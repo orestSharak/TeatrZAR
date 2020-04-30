@@ -91,7 +91,7 @@ body {
 
 .header {
     z-index: 100;
-    background: transparent;
+    background: rgba(280, 280, 280, .9);
     position: fixed;
     top: -1% !important;
     width: 100%;

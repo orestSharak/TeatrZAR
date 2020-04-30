@@ -38,7 +38,8 @@ if (mq.matches) {
 
     window.addEventListener("scroll", function () {
         const currentScroll = window.pageYOffset;
-        if (currentScroll == 0) {
+        console.log(currentScroll, lastScroll);
+        if (currentScroll < 100) {
             body.classList.remove(scrollUp);
             return;
         }
