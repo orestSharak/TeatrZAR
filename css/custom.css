@@ -376,24 +376,6 @@ svg {
     flex-shrink: 0;
 }
 
-.logo-footer{
-    width: 5rem;
-    -webkit-transition: all .2s;
-    -moz-transition: all .2s;
-    -ms-transition: all .2s;
-    -o-transition: all .2s;
-    transition: all .2s;
-
-}
-.logo-footer:hover{
-    filter: contrast(0.5);
-    -webkit-filter: contrast(0.5);
-}
-@media screen and (max-width: 576px) {
-    .logo-footer {
-        width: 4rem;
-    }
-}
 
 
 
@@ -1074,6 +1056,27 @@ audio {
 }
 
 /* footer */
+
+
+.logo-footer{
+    width: 5rem;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+
+}
+.logo-footer:hover{
+    filter: contrast(0.5);
+    -webkit-filter: contrast(0.5);
+}
+@media screen and (max-width: 576px) {
+    .logo-footer {
+        width: 4rem;
+    }
+}
+
 
 .footer-social-btn {
     font-size: 1.5rem;
