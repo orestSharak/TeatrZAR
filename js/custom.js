@@ -33,7 +33,10 @@ if (mq.matches) {
 
     window.addEventListener('resize', function () {
         if (window.innerWidth !== width) {
-            window.location.reload(true);
+            setTimeout(function() {
+                window.location.reload(true);
+                console.log(width);
+            });
         }
     });
 })();

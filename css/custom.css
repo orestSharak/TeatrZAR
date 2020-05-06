@@ -161,6 +161,7 @@ body {
 
 .navbar-light .navbar-toggler {
     border: none;
+
 }
 
 button:active {
@@ -224,6 +225,7 @@ button:focus {
 
     .navbar-collapse, .navbar-nav {
         background-color: #fff;
+        display: none;
         position: fixed;
         top: 0;
         left: 0;
@@ -266,6 +268,9 @@ button:focus {
 
 .first-button {
     z-index: 101;
+    float: right !important;
+
+
 }
 
 .animated-icon1 {
