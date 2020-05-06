@@ -24,6 +24,20 @@ if (mq.matches) {
 
 /* fixed nav on scroll */
 
+
+
+/* reload window on width change */
+
+(function () {
+    var width = window.innerWidth;
+
+    window.addEventListener('resize', function () {
+        if (window.innerWidth !== width) {
+            window.location.reload(true);
+        }
+    });
+})();
+
 /* for large screen */
 
 var mq = window.matchMedia("(min-width: 992px)");
@@ -38,8 +52,7 @@ if (mq.matches) {
 
     window.addEventListener("scroll", function () {
         const currentScroll = window.pageYOffset;
-        console.log(currentScroll, lastScroll);
-        if (currentScroll < 100) {
+        if (currentScroll < 90) {
             body.classList.remove(scrollUp);
             return;
         }
@@ -131,7 +144,6 @@ $(function () {
         }
     });
 
-    console.log(mySwiper);
 
 });
 
