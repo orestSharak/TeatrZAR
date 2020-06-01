@@ -8,6 +8,7 @@
     <list default="true" id="c379c651-4759-489a-aa3b-e0d483ea2f5f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/custom.css" afterPath="$PROJECT_DIR$/css/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/education-net.html" afterPath="$PROJECT_DIR$/education-net.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,10 +35,12 @@
       <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="647">
-              <caret line="1184" column="24" lean-forward="true" selection-start-line="1184" selection-start-column="24" selection-end-line="1184" selection-end-column="24" />
+            <state relative-caret-position="664">
+              <caret line="1252" column="18" lean-forward="false" selection-start-line="1252" selection-start-column="18" selection-end-line="1252" selection-end-column="18" />
+              <caret line="1253" column="17" lean-forward="false" selection-start-line="1253" selection-start-column="17" selection-end-line="1253" selection-end-column="17" />
+              <caret line="1254" column="16" lean-forward="false" selection-start-line="1254" selection-start-column="16" selection-end-line="1254" selection-end-column="16" />
               <folding>
-                <element signature="e#25436#25844#2" expanded="true" />
+                <element signature="e#25572#25980#2" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -46,8 +49,8 @@
       <file leaf-file-name="education-net.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/education-net.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2035">
-              <caret line="335" column="0" lean-forward="true" selection-start-line="335" selection-start-column="0" selection-end-line="335" selection-end-column="0" />
+            <state relative-caret-position="488">
+              <caret line="352" column="65" lean-forward="true" selection-start-line="352" selection-start-column="65" selection-end-line="352" selection-end-column="65" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#path#0;n#svg#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -317,12 +320,12 @@
       <workItem from="1589614840124" duration="1669000" />
       <workItem from="1589624053094" duration="831000" />
       <workItem from="1590580129050" duration="36210000" />
-      <workItem from="1590922260333" duration="40177000" />
+      <workItem from="1590922260333" duration="40802000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="434868000" />
+    <option name="totallyTimeSpent" value="435493000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -692,8 +695,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/education-net.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2035">
-          <caret line="335" column="0" lean-forward="true" selection-start-line="335" selection-start-column="0" selection-end-line="335" selection-end-column="0" />
+        <state relative-caret-position="488">
+          <caret line="352" column="65" lean-forward="true" selection-start-line="352" selection-start-column="65" selection-end-line="352" selection-end-column="65" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#path#0;n#svg#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -708,10 +711,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="1184" column="24" lean-forward="true" selection-start-line="1184" selection-start-column="24" selection-end-line="1184" selection-end-column="24" />
+        <state relative-caret-position="664">
+          <caret line="1252" column="18" lean-forward="false" selection-start-line="1252" selection-start-column="18" selection-end-line="1252" selection-end-column="18" />
+          <caret line="1253" column="17" lean-forward="false" selection-start-line="1253" selection-start-column="17" selection-end-line="1253" selection-end-column="17" />
+          <caret line="1254" column="16" lean-forward="false" selection-start-line="1254" selection-start-column="16" selection-end-line="1254" selection-end-column="16" />
           <folding>
-            <element signature="e#25436#25844#2" expanded="true" />
+            <element signature="e#25572#25980#2" expanded="true" />
           </folding>
         </state>
       </provider>

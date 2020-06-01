@@ -1170,7 +1170,7 @@ ol li::before {
     color: #bcac76;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 767px) {
 
     ol li:hover {
         transform: translateX(0) !important;
@@ -1246,6 +1246,14 @@ ol li::before {
     -ms-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
+}
+
+@media screen and (max-width: 767px) {
+    .gluch-btn:after{
+        bottom: -3rem;
+        height: 3rem;
+        width: 3rem;
+    }
 }
 
 .gluch-btn:hover:after{
