@@ -1161,6 +1161,13 @@ ol li::before {
     color: #bcac76;
 }
 
+
+/* ios accordion issue */
+
+.clickable {
+    cursor: pointer;
+}
+
 /* video iframe wrapper */
 
 .hytPlayerWrap {
