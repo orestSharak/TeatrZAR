@@ -1141,10 +1141,13 @@ ol {
 
 ol li {
     transition: all .3s;
+    counter-increment: my-awesome-counter;
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
 }
 
 ol li span {
-    counter-increment: my-awesome-counter;
+
     font-size: 1.2rem;
     margin-bottom: 1.2rem;
 
@@ -1155,14 +1158,9 @@ ol li:hover {
     transform: translateX(1rem);
 }
 
-@media screen and (max-width: 992px) {
 
-    ol li:hover {
-        transform: translateX(0) !important;
-    }
-}
 
-ol li span::before {
+ol li::before {
     content: counter(my-awesome-counter);
     font-weight: bold;
     font-size: 3rem;
@@ -1170,6 +1168,27 @@ ol li span::before {
     font-family: 'Abril Fatface', serif;
     line-height: 1;
     color: #bcac76;
+}
+
+@media screen and (max-width: 992px) {
+
+    ol li:hover {
+        transform: translateX(0) !important;
+    }
+
+    ol li::before{
+        display: none;
+    }
+    ol li span::before {
+        content: counter(my-awesome-counter);
+        font-weight: bold;
+        font-size: 3rem;
+        margin-right: 1rem;
+        font-family: 'Abril Fatface', serif;
+        line-height: 1;
+        color: #bcac76;
+    }
+
 }
 
 
