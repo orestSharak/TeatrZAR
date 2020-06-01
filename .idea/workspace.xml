@@ -32,25 +32,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="664">
-              <caret line="1252" column="18" lean-forward="false" selection-start-line="1252" selection-start-column="18" selection-end-line="1252" selection-end-column="18" />
-              <caret line="1253" column="17" lean-forward="false" selection-start-line="1253" selection-start-column="17" selection-end-line="1253" selection-end-column="17" />
-              <caret line="1254" column="16" lean-forward="false" selection-start-line="1254" selection-start-column="16" selection-end-line="1254" selection-end-column="16" />
+            <state relative-caret-position="460">
+              <caret line="1248" column="6" lean-forward="false" selection-start-line="1248" selection-start-column="6" selection-end-line="1248" selection-end-column="6" />
               <folding>
-                <element signature="e#25572#25980#2" expanded="true" />
+                <element signature="e#25579#25987#2" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="education-net.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="education-net.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/education-net.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="352" column="65" lean-forward="true" selection-start-line="352" selection-start-column="65" selection-end-line="352" selection-end-column="65" />
+            <state relative-caret-position="403">
+              <caret line="260" column="59" lean-forward="false" selection-start-line="260" selection-start-column="58" selection-end-line="260" selection-end-column="59" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#path#0;n#svg#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -193,8 +191,8 @@
         <option value="$PROJECT_DIR$/video-net.html" />
         <option value="$PROJECT_DIR$/landing.html" />
         <option value="$PROJECT_DIR$/js/custom.js" />
-        <option value="$PROJECT_DIR$/education-net.html" />
         <option value="$PROJECT_DIR$/css/custom.css" />
+        <option value="$PROJECT_DIR$/education-net.html" />
       </list>
     </option>
   </component>
@@ -320,12 +318,12 @@
       <workItem from="1589614840124" duration="1669000" />
       <workItem from="1589624053094" duration="831000" />
       <workItem from="1590580129050" duration="36210000" />
-      <workItem from="1590922260333" duration="40802000" />
+      <workItem from="1590922260333" duration="41240000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="435493000" />
+    <option name="totallyTimeSpent" value="435931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -337,7 +335,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -693,10 +691,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="1248" column="6" lean-forward="false" selection-start-line="1248" selection-start-column="6" selection-end-line="1248" selection-end-column="6" />
+          <folding>
+            <element signature="e#25579#25987#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/education-net.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="352" column="65" lean-forward="true" selection-start-line="352" selection-start-column="65" selection-end-line="352" selection-end-column="65" />
+        <state relative-caret-position="403">
+          <caret line="260" column="59" lean-forward="false" selection-start-line="260" selection-start-column="58" selection-end-line="260" selection-end-column="59" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#path#0;n#svg#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -705,18 +713,6 @@
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#script#13;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#script#14;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="664">
-          <caret line="1252" column="18" lean-forward="false" selection-start-line="1252" selection-start-column="18" selection-end-line="1252" selection-end-column="18" />
-          <caret line="1253" column="17" lean-forward="false" selection-start-line="1253" selection-start-column="17" selection-end-line="1253" selection-end-column="17" />
-          <caret line="1254" column="16" lean-forward="false" selection-start-line="1254" selection-start-column="16" selection-end-line="1254" selection-end-column="16" />
-          <folding>
-            <element signature="e#25572#25980#2" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1246,6 +1246,7 @@ ol li::before {
     -ms-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
+    ma
 }
 
 @media screen and (max-width: 767px) {
