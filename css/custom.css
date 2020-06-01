@@ -1140,10 +1140,14 @@ ol {
 }
 
 ol li {
+    transition: all .3s;
+}
+
+ol li span {
     counter-increment: my-awesome-counter;
     font-size: 1.2rem;
     margin-bottom: 1.2rem;
-    transition: all .3s;
+
 
 }
 
@@ -1151,7 +1155,7 @@ ol li:hover {
     transform: translateX(1rem);
 }
 
-ol li::before {
+ol li span::before {
     content: counter(my-awesome-counter);
     font-weight: bold;
     font-size: 3rem;
