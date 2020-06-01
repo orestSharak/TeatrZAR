@@ -1155,6 +1155,13 @@ ol li:hover {
     transform: translateX(1rem);
 }
 
+@media screen and (max-width: 992px) {
+
+    ol li:hover {
+        transform: translateX(0) !important;
+    }
+}
+
 ol li span::before {
     content: counter(my-awesome-counter);
     font-weight: bold;
