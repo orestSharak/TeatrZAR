@@ -228,6 +228,16 @@ function msieversion() {
 msieversion();
 
 
+// gluch btn trigger
+
+
+$('.gluch-btn').after().on('click', function () {
+    $('.gluch-block').toggleClass('show');
+    $('.gluch-text').toggleClass('show');
+});
+
+
+
 
 
 
