@@ -210,6 +210,23 @@ $('.gallery').each(function () { // the containers for all your galleries
     });
 });
 
+// AOS for IE
+
+function msieversion() {
+    var ua = window.navigator.userAgent;
+    var isIE = /MSIE|Trident|Edge\//.test(ua);
+
+    if (isIE) {
+
+        var sheet = document.createElement('style');
+        sheet.innerHTML =
+            "[data-aos^=fade][data-aos^=fade] {transform: translateZ(0) !important; opacity: 1 !important;}";
+        document.body.appendChild(sheet);
+    }
+}
+
+msieversion();
+
 
 
 
