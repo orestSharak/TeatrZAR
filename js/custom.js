@@ -25,7 +25,6 @@ if (mq.matches) {
 /* fixed nav on scroll */
 
 
-
 /* reload window on width change */
 
 (function () {
@@ -33,7 +32,7 @@ if (mq.matches) {
 
     window.addEventListener('resize', function () {
         if (window.innerWidth !== width) {
-            setTimeout(function() {
+            setTimeout(function () {
                 window.location.reload(true);
                 console.log(width);
             });
@@ -133,10 +132,7 @@ $(function () {
             prevEl: '#homePrev',
         },
 
-        hashNavigation: {
-            watchState: true,
-            replaceState: true
-        },
+
         on: {
             init: function () {
                 swiperAnimation.init(this).animate();
@@ -164,10 +160,7 @@ var image = document.getElementsByClassName('thumbnail-right');
 new simpleParallax(image, {
     orientation: 'right'
 });
-var video = document.getElementsByTagName('video');
-new simpleParallax(video, {
-    overflow: true
-});
+
 
 // masonry property
 
@@ -216,6 +209,9 @@ $('.gallery').each(function () { // the containers for all your galleries
         }
     });
 });
+
+
+
 
 
 
