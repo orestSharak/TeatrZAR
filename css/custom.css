@@ -1165,7 +1165,7 @@ ol li::before {
 /* ios accordion issue */
 
 .clickable {
-    cursor: pointer;
+    cursor: pointer !important;
 }
 
 /* video iframe wrapper */
