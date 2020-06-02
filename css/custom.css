@@ -1223,6 +1223,7 @@ ol li::before {
 
 .gluch-btn:after {
     cursor: pointer !important;
+    z-index: 100;
     right: 0;
     bottom: -4rem;
     height: 2rem;
