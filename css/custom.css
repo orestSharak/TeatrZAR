@@ -1253,7 +1253,7 @@ ol li::before {
 
 @media screen and (max-width: 767px) {
     .gluch-btn:after{
-        bottom: -3rem;
+        bottom: -5rem;
         height: 3rem;
         width: 3rem;
     }
