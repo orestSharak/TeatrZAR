@@ -1038,7 +1038,7 @@ body {
     color: rgba(51, 51, 51, 1);
     line-height: 1;
     letter-spacing: 0em;
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-family: 'Crimson Text';
     font-weight: 600;
     font-style: normal;
@@ -1049,6 +1049,8 @@ body {
         font-size: 2rem;
     }
 }
+
+
 
 .video-cover{
 
@@ -1246,7 +1248,7 @@ ol li::before {
     -ms-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
-    ma
+    margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 767px) {
