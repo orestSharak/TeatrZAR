@@ -68,6 +68,11 @@
 
     /* for device */
 
+    var triggerMenu = document.querySelector(".header .first-button");
+    triggerMenu.addEventListener("click", function () {
+        body.classList.toggle("menu-open");
+    });
+
 
 
     //Event to handle resizing
@@ -104,11 +109,8 @@
                 }
             });
 
-            var bodyDoc = document.body;
-            var triggerMenu = document.querySelector(".header .first-button");
-            triggerMenu.addEventListener("click", function () {
-                bodyDoc.classList.toggle("menu-open");
-            });
+
+
         }
         else{
 
