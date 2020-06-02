@@ -1237,12 +1237,12 @@ ol li::before {
     -ms-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
-    margin-bottom: 2rem;
+
 }
 
 @media screen and (max-width: 767px) {
     .gluch-btn:after {
-        bottom: -5rem;
+        bottom: -3rem;
         height: 3rem;
         width: 3rem;
     }
