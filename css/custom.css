@@ -108,8 +108,6 @@ body {
     margin-top: 80px;
 }
 
-
-
 .header-social-btn {
     padding-top: 5px;
     font-size: 1.2rem;
@@ -1004,6 +1002,17 @@ body {
 
     min-width: 15rem !important;
 }
+
+.nck-logo {
+    height: 6rem;
+    width: auto !important;
+}
+@media screen and (max-width: 992px) {
+    .nck-logo {
+        height: 4rem;
+    }
+}
+
 
 .paragraph {
     color: rgba(51, 51, 51, 1);
