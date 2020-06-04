@@ -1544,3 +1544,25 @@ audio {
 .search-filter-scroll-loading {
     margin: auto;
 }
+
+
+/* cookies */
+
+.cookie-block{
+    position: fixed;
+    bottom: 5%;
+    right: 0;
+}
+
+@media screen and (max-width: 992px) {
+.cookie-block{
+    bottom: 5% !important;
+    left: 50% !important;
+    transform: translate(-50%, 0) !important;
+}
+}
+.cookie-img{
+    background: url('../img/cookie.svg');
+    background-size: auto; background-position: 50%;
+    background-repeat: no-repeat
+}
