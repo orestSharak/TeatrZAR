@@ -274,8 +274,19 @@
 
 
     $('.gluch-btn').after().on('click', function () {
+        $('.niewido-btn').toggleClass('hide');
         $('.gluch-block').toggleClass('show');
         $('.gluch-text').toggleClass('show');
+    });
+
+
+    // niewido btn trigger
+
+
+    $('.niewido-btn').on('click', function () {
+        $('.gluch-btn').toggleClass('hide');
+        $('.niewido-block').toggleClass('show');
+        $('.niewido-text').toggleClass('show');
     });
 
 

@@ -55,9 +55,9 @@
     ];
 
 /*
-*   Używamy informacji zapisanych za pomocą plików cookies w celu zapewnienia maksymalnej wygody w korzystaniu z naszego serwisu. Lubie cookies
-*
-* */
+  Używamy informacji zapisanych za pomocą plików cookies w celu zapewnienia maksymalnej wygody w korzystaniu z naszego serwisu. Lubie cookies
+
+*/
     $('.sticky-wrap').append(cookie);
 
 

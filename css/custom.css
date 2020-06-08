@@ -1202,7 +1202,7 @@ ol li::before {
 
 /* video iframe wrapper */
 /* gluch block */
-.gluch-block {
+.gluch-block, .niewido-block {
     left: 0;
     top: 0;
     height: 100%;
@@ -1217,20 +1217,26 @@ ol li::before {
     transition: opacity .4s ease-in;
 }
 
-.gluch-text {
+.gluch-text, .niewido-text {
     position: absolute;
     bottom: -2rem;
-    right: 4rem;
+    left: 0;
     color: #bcac76;
     display: none;
 }
 
+.hide{
+    display: none;
+    opacity: 0;
+}
 .show {
     display: block;
     opacity: 1;
 }
 
-.gluch-btn:after {
+
+.gluch-btn{
+
     cursor: pointer !important;
     z-index: 100;
     right: 0;
@@ -1238,29 +1244,38 @@ ol li::before {
     height: 2rem;
     width: 2rem;
     position: absolute;
-    content: "";
-    background-image: url('../img/gluch-logo.png');
+    background-image: url('../img/logo/gluch-logo.png');
     background-repeat: no-repeat;
     background-size: cover;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    -ms-transition: all .3s;
-    -o-transition: all .3s;
-    transition: all .3s;
+}
+.niewido-btn{
 
+    cursor: pointer !important;
+    z-index: 100;
+    right: 2.4rem ;
+    bottom: -2rem;
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    background-image: url('../img/logo/niewido.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+
 @media screen and (max-width: 767px) {
-    .gluch-btn:after {
+   .gluch-btn,
+   .niewido-btn{
         bottom: -3rem;
         height: 3rem;
         width: 3rem;
     }
+    .niewido-btn{
+        right: 3.4rem ;
+    }
+
 }
 
-.gluch-btn:hover:after {
-    transform: translateX(-.2rem);
-}
 
 .hytPlayerWrap {
 
@@ -1552,6 +1567,7 @@ audio {
     position: fixed;
     bottom: 5%;
     right: 0;
+    z-index: 101;
 }
 
 @media screen and (max-width: 992px) {
