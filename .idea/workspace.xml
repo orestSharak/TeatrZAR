@@ -7,10 +7,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c379c651-4759-489a-aa3b-e0d483ea2f5f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/custom.css" afterPath="$PROJECT_DIR$/css/custom.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/education-net.html" afterPath="$PROJECT_DIR$/education-net.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/cookie.js" afterPath="$PROJECT_DIR$/js/cookie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/custom.js" afterPath="$PROJECT_DIR$/js/custom.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -120,8 +117,8 @@
       <file leaf-file-name="education-net.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/education-net.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="685">
-              <caret line="457" column="30" lean-forward="false" selection-start-line="457" selection-start-column="30" selection-end-line="457" selection-end-column="30" />
+            <state relative-caret-position="175">
+              <caret line="367" column="75" lean-forward="false" selection-start-line="367" selection-start-column="75" selection-end-line="367" selection-end-column="75" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#path#0;n#svg#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -336,15 +333,16 @@
       <workItem from="1590922260333" duration="86837000" />
       <workItem from="1591609331804" duration="1048000" />
       <workItem from="1591627118955" duration="6353000" />
-      <workItem from="1591643721717" duration="94000" />
+      <workItem from="1591643721717" duration="778000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="489023000" />
+    <option name="totallyTimeSpent" value="489707000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.56006324" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -352,7 +350,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16576381" sideWeight="0.49789253" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16576381" sideWeight="0.49789253" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -696,8 +694,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/education-net.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
-          <caret line="457" column="30" lean-forward="false" selection-start-line="457" selection-start-column="30" selection-end-line="457" selection-end-column="30" />
+        <state relative-caret-position="175">
+          <caret line="367" column="75" lean-forward="false" selection-start-line="367" selection-start-column="75" selection-end-line="367" selection-end-column="75" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#path#0;n#svg#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
