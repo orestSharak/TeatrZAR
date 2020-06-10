@@ -153,6 +153,13 @@ body {
 }
 
 /* bootstrap nav default killer */
+
+@media (max-width: 768px) {
+    .img-fluid {
+       width: 100% !important;
+    }
+}
+
 .dropdown-menu {
     border: none;
     text-align: left;
