@@ -201,8 +201,8 @@ button:focus {
 
 }
 
-.navbar-nav .show > .nav-link, .nav-link:focus {
-    color: rgba(0, 0, 0, .5) !important;
+.navbar-light .navbar-nav .show>.nav-link, .nav-link:focus {
+    color: rgba(0, 0, 0, .5) ;
 }
 
 /* responsive navbar padding */
@@ -1251,9 +1251,9 @@ ol li::before {
     height: 2rem;
     width: 2rem;
     position: absolute;
-    background-image: url('../img/logo/gluch-logo.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url('../img/logo/gluch-logo.png') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
 }
 .niewido-btn{
 
@@ -1264,9 +1264,9 @@ ol li::before {
     height: 2rem;
     width: 2rem;
     position: absolute;
-    background-image: url('../img/logo/niewido.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url('../img/logo/niewido.png') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
 }
 
 

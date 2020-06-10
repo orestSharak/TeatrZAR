@@ -377,6 +377,7 @@
             $('.nav-link').removeClass('contrast');
             $('.footer-color').removeClass('dark-bg');
             $('.navbar-collapse').removeClass('dark-bg');
+            $('.navbar-light .navbar-nav .show>.nav-link').removeClass('contrast');
             $('.animated-icon1 span').removeClass('yellow-bg');
             $('.wave').removeClass('hide');
             $('.svg-blob').css('display', 'block');
@@ -393,6 +394,7 @@
             $('.svg-blob').css('display', 'none');
             $('.dark-gradient').addClass('dark-grad');
             $('.navbar-collapse').addClass('dark-bg');
+            $('.navbar-light .navbar-nav .show>.nav-link').addClass('contrast');
             $('.animated-icon1 span').addClass('yellow-bg');
 
             open = true;
