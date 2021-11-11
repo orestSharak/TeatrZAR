@@ -1,3 +1,2 @@
 # TeatrZAR
-Website of TeatrZAR
-Check on ...
+Website of TeatrZAR, check on https://orestsharak.github.io/TeatrZAR/
